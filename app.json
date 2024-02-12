@@ -3,6 +3,7 @@
     "name": "todoList",
     "slug": "todoList",
     "version": "1.0.0",
+    "schema": "todoList",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.todoList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
