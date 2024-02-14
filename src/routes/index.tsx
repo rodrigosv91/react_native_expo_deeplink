@@ -1,9 +1,12 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { View, Text } from "react-native";
 import AppRoutes from "./app.routes";
+import * as Linking from "expo-linking";
+
+const prefix = Linking.createURL("/");
 
 const linking = {
-  prefixes: ["exp://192.168.1.94:8081/--/todoList"],
+  prefixes: [prefix],
   config: {
     screens: {
       home: {
